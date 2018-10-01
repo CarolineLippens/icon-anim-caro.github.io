@@ -1,0 +1,136 @@
+.main {
+  background-image: url("loup.jpg");
+  background-size: 115%;
+  overflow: hidden;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.date {
+  position: absolute;
+  border: solid #ce3333 2px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 3em;
+  background-color: #ce3333;
+  color: white;
+  left: 555px; }
+
+.whitheempty {
+  background-color: white;
+  position: absolute;
+  width: 440px;
+  height: 275px;
+  opacity: 0; }
+
+.whitheemptyimg {
+  position: static;
+  width: 440px;
+  height: 275px; }
+
+.texthidden {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 0; }
+
+p {
+  color: black; }
+
+.main:hover {
+  background-size: 150%; }
+  .main:hover .texthidden {
+    opacity: 1;
+    -webkit-transition-duration: 3s;
+    -o-transition-duration: 3s;
+    transition-duration: 3s; }
+  .main:hover .whitheempty {
+    opacity: 0.5;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s; }
+  .main:hover .movepart {
+    height: 200px;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    -webkit-transform: translateY(-75px);
+    -ms-transform: translateY(-75px);
+    transform: translateY(-75px); }
+
+.photo {
+  position: absolute;
+  background-color: #163672;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  margin: 0;
+  line-height: 3em;
+  color: white;
+  top: -25px; }
+
+.firstpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.movepart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 100px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 265px;
+  left: 88px;
+  width: 440px; }
+
+.secondtitlered {
+  color: #61110f;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: oblique;
+  font-size: 1.3em; }
+
+.secondpartinside {
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.bottomcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 348px;
+  color: red;
+  left: 750px; }
+
+.wolfmargin {
+  margin-top: 50px; }
